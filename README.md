@@ -9,7 +9,7 @@ dependencies, and test cases to ensure the application works as expected.
 - Java Development Kit (JDK) 21 or higher
 - Spring Boot 3.3 or higher
 - Maven 3.6 or higher
-- Docker (optional, for containerization)
+- Docker
 - Git
 
 ## How to Run the System
@@ -51,6 +51,15 @@ dependencies, and test cases to ensure the application works as expected.
    ```bash
    k6 run test_call_hello.js
    ```
+
+## Test Result
+
+Here is the example of the test result I've tried on my local machine using that setup 1 CPU and
+256Mb memory:
+
+[k6 test image](/test-result/Screenshot%202025-09-27%20at%2017.29.04.png)
+
+[k6 test video](/test-result/Screen%20Recording%202025-09-27%20at%2017.28.11.mov)
 
 ### Copyright
 
